@@ -1,0 +1,174 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing : border-box;
+    font-size  : 18px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#FFFFFF;
+}
+main{
+
+     margin: auto;
+     width: 50%;
+     margin-top: 285px;
+     margin-bottom: 285px;
+     margin-left: 352px;
+     margin-right: 352px;
+     background-color: #FFFFFF;
+}
+
+
+.container{
+    display : flex;
+    flex-direction: row;
+    
+    
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#DDD8FF;
+    width: 369px;
+    height: 512px;
+    font-size: 18px;;
+    border-radius: 28px;
+
+    /* variable color using linear gradient */
+    /* background-color: hsl(241, 81%, 54%);  */
+    background-image: linear-gradient(rgb(102, 51, 240),hsl(241, 81%, 54%));
+    box-shadow:20px 10px 20px 4px #F3F3FB;
+}
+.circle{
+    /* background-color: hsla(256, 72%, 46%, 1) ; */
+    background-image: linear-gradient(#452DE0,#4534F2);
+    width: 193px;
+    height: 193px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top:41px;
+    margin-bottom: 40px;
+    box-shadow: -6px -13px 1000px 4px #623FFD;
+    
+}
+
+.circle .head{
+    color:#FFFFFF;
+    font-size: 65px;;
+    font-weight: bolder;
+    
+    margin-top: 43px;
+    margin-bottom: -10px;
+}
+.txt span{
+    font-size: 25px;
+    color: #c4befa;
+    margin-top: 44px;
+    margin-bottom: 41px;
+}
+
+.cardtxt{
+    color:#8E80FF;
+    text-align: center;
+}
+.description span{
+    color:#FFFFFF;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 43px;
+}
+.description p{
+    color: #b9b1fd;
+    padding-top :0px;
+    padding-left: 61px;
+    padding-right: 61px;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    text-align: left;
+    background-color:#FFFFFF;
+    width: 369px;
+    height: 512px;
+    border-radius:  0 28px 28px 0 ;
+    box-shadow: 20px 10px 20px 4px #F3F3FB;
+   
+
+    padding-top      : 24px ;
+    /* padding-bottom   :46px ; */
+    padding-left     :40px ;
+    padding-right    :40px ;
+}
+.summary #smry p{
+    color:#1C2232;
+    font-size  :22px;
+    font-weight: 700;
+    margin-left:-16px;
+    /* padding-down:-16px; */
+}
+.summary div{
+    width:288px;
+    height: 56px;
+    border-radius: 7.5px;
+    font-weight: 700;
+    padding-left:16px;
+    padding-down:16px;
+}
+
+.marks{
+    color:#1C2232;
+}
+.totmarks{
+    color:#95929B;
+}
+.reaction{
+       
+        background-color: #FFF6F5;
+        color:#DC6466;
+}
+.memory{
+        
+        background-color: #FFFBF2;
+        color:#EDB953;
+}
+.verbal{
+        
+        background-color: #F2FBFA;
+        color:#209C7A;
+}
+.visual{
+        
+        background-color: #F3F3FD;
+        color:#20299E;
+}
+
+#continue{
+    margin-top: 26px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #303B59;
+    border-radius: 28px;
+    
+    color:#F4FCFF;
+}
+#continue:hover{
+    background-image: linear-gradient(#6542FE,#342CE2);
+}
+.contxt{
+    margin-right:5px;
+    padding-top:13px;
+    text-align: center;
+}
+
+
